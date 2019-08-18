@@ -1,11 +1,14 @@
 package com.example.game_of_life;
 
+import com.example.game_of_life.classes.Game;
+
 import java.util.Random;
 
 public class main {
 
     public static void main(String[] args) {
 
+        /*
         System.out.println("Hello world!");
 
 
@@ -22,6 +25,10 @@ public class main {
         for(int i = 0; i < 10; i++){
             System.out.println( random.nextInt(2) );
         }
+        */
+
+        Game game = new Game();
+        game.startGame();
 
     }
 

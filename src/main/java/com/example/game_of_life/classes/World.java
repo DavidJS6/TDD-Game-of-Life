@@ -43,6 +43,14 @@ public class World {
         this.body[y][x].kill();
     }
 
+    public boolean isCellAlive(int y, int x){
+        return this.body[y][x].isAlive();
+    }
+
+    public boolean isCellDead(int y, int x){
+        return this.body[y][x].isDead();
+    }
+
     public String getBodyRepresentation(){
         String worldRepresentation = "";
 
