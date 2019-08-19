@@ -7,6 +7,51 @@ import org.junit.Test;
 
 public class GameTest {
 
+    /*
+        [0][1][0]
+        [1][0][1]
+        [0][1][0]
+    */
+
+    @Test
+    public void FindFourNeighboursCellFromMiddleTest(){
+        Game game = new Game();
+        World world = game.getWorld();
+        world.killCellForNextInstance(0,0);
+        world.reviveCellForNextInstance(0, 1);
+        world.killCellForNextInstance(0, 2);
+        world.reviveCellForNextInstance(1,0);
+        world.killCellForNextInstance(1,1);
+        world.reviveCellForNextInstance(1,2);
+        world.killCellForNextInstance(2,0);
+        world.reviveCellForNextInstance(2,1);
+        world.killCellForNextInstance(2,2);
+        world.updateWorld();
+        Assert.assertEquals(4, game.getAliveNeighborCellsNumber(1,1));
+    }
+
+    /*
+        [0][0][0]
+        [0][1][0]
+        [0][0][0]
+    */
+
+    @Test
+    public void FindZeroNeighboursCellFromMiddleTest(){
+        Game game = new Game();
+        World world = game.getWorld();
+        world.killCellForNextInstance(0,0);
+        world.killCellForNextInstance(0, 1);
+        world.killCellForNextInstance(0, 2);
+        world.killCellForNextInstance(1,0);
+        world.reviveCellForNextInstance(1,1);
+        world.killCellForNextInstance(1,2);
+        world.killCellForNextInstance(2,0);
+        world.killCellForNextInstance(2,1);
+        world.killCellForNextInstance(2,2);
+        world.updateWorld();
+        Assert.assertEquals(0, game.getAliveNeighborCellsNumber(1,1));
+    }
 
     /*
         [0][1][0]
@@ -18,15 +63,16 @@ public class GameTest {
     public void tryToReviveWithSuccessTest(){
         Game game = new Game();
         World world = game.getWorld();
-        world.killCell(0,0);
-        world.reviveCell(0, 1);
-        world.killCell(0, 2);
-        world.reviveCell(1,0);
-        world.reviveCell(1,1);
-        world.killCell(1,2);
-        world.killCell(2,0);
-        world.killCell(2,1);
-        world.killCell(2,2);
+        world.killCellForNextInstance(0,0);
+        world.reviveCellForNextInstance(0, 1);
+        world.killCellForNextInstance(0, 2);
+        world.reviveCellForNextInstance(1,0);
+        world.reviveCellForNextInstance(1,1);
+        world.killCellForNextInstance(1,2);
+        world.killCellForNextInstance(2,0);
+        world.killCellForNextInstance(2,1);
+        world.killCellForNextInstance(2,2);
+        world.updateWorld();
         Assert.assertTrue(game.tryToReviveCell(0,0));
     }
 
@@ -40,16 +86,17 @@ public class GameTest {
     public void tryToReviveWithFailTest(){
         Game game = new Game();
         World world = game.getWorld();
-        world.killCell(0,0);
-        world.reviveCell(0, 1);
-        world.killCell(0, 2);
-        world.reviveCell(1,0);
-        world.killCell(1,1);
-        world.killCell(1,2);
-        world.killCell(2,0);
-        world.killCell(2,1);
-        world.killCell(2,2);
-        Assert.assertTrue(game.tryToReviveCell(0,0));
+        world.killCellForNextInstance(0,0);
+        world.reviveCellForNextInstance(0, 1);
+        world.killCellForNextInstance(0, 2);
+        world.reviveCellForNextInstance(1,0);
+        world.killCellForNextInstance(1,1);
+        world.killCellForNextInstance(1,2);
+        world.killCellForNextInstance(2,0);
+        world.killCellForNextInstance(2,1);
+        world.killCellForNextInstance(2,2);
+        world.updateWorld();
+        Assert.assertFalse(game.tryToReviveCell(0,0));
     }
 
     /*
@@ -63,16 +110,17 @@ public class GameTest {
     public void tryToKillWithSucessTest(){
         Game game = new Game();
         World world = game.getWorld();
-        world.reviveCell(0,0);
-        world.killCell(0, 1);
-        world.killCell(0, 2);
-        world.killCell(1,0);
-        world.reviveCell(1,1);
-        world.killCell(1,2);
-        world.killCell(2,0);
-        world.killCell(2,1);
-        world.killCell(2,2);
-        Assert.assertTrue(game.tryToReviveCell(0,0));
+        world.reviveCellForNextInstance(0,0);
+        world.killCellForNextInstance(0, 1);
+        world.killCellForNextInstance(0, 2);
+        world.killCellForNextInstance(1,0);
+        world.reviveCellForNextInstance(1,1);
+        world.killCellForNextInstance(1,2);
+        world.killCellForNextInstance(2,0);
+        world.killCellForNextInstance(2,1);
+        world.killCellForNextInstance(2,2);
+        world.updateWorld();
+        Assert.assertTrue(game.tryToKillCell(0,0));
     }
 
     /*
@@ -85,16 +133,17 @@ public class GameTest {
     public void tryToKillWithFailTest(){
         Game game = new Game();
         World world = game.getWorld();
-        world.reviveCell(0,0);
-        world.reviveCell(0, 1);
-        world.killCell(0, 2);
-        world.reviveCell(1,0);
-        world.killCell(1,1);
-        world.killCell(1,2);
-        world.killCell(2,0);
-        world.killCell(2,1);
-        world.killCell(2,2);
-        Assert.assertTrue(game.tryToReviveCell(0,0));
+        world.reviveCellForNextInstance(0,0);
+        world.reviveCellForNextInstance(0, 1);
+        world.killCellForNextInstance(0, 2);
+        world.reviveCellForNextInstance(1,0);
+        world.killCellForNextInstance(1,1);
+        world.killCellForNextInstance(1,2);
+        world.killCellForNextInstance(2,0);
+        world.killCellForNextInstance(2,1);
+        world.killCellForNextInstance(2,2);
+        world.updateWorld();
+        Assert.assertFalse(game.tryToKillCell(0,0));
     }
 
 }

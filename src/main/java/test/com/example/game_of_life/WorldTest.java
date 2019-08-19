@@ -19,6 +19,24 @@ public class WorldTest {
     }
 
     @Test
+    public void RevivingCellTest(){
+        World world = new World();
+        world.reviveCellForNextInstance(0,0);
+        world.updateWorld();
+        Assert.assertTrue(world.isCellAlive(0,0));
+        Assert.assertFalse(world.isCellDead(0,0));
+    }
+
+    @Test
+    public void KillingCellTest(){
+        World world = new World();
+        world.killCellForNextInstance(0,0);
+        world.updateWorld();
+        Assert.assertTrue(world.isCellDead(0,0));
+        Assert.assertFalse(world.isCellAlive(0,0));
+    }
+
+    @Test
     public void WorldDrawTest(){
         World world = new World();
         String worldRepresentation = world.getBodyRepresentation();

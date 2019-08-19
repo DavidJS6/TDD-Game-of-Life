@@ -3,14 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf64630-158c-4715-b2fa-61520339d61c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/World.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/CellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/CellTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/WorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/WorldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/mainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/game_of_life/classes/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/game_of_life/classes/Cell.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/game_of_life/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/game_of_life/classes/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/game_of_life/classes/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/game_of_life/classes/World.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/game_of_life/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/game_of_life/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/CellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/CellTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/WorldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/WorldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/com/example/game_of_life/mainTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,32 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -58,21 +47,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="580">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#172#173#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/CellTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="461">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,16 +80,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="68">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,11 +97,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/WorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="580">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="578">
+                <caret line="92" selection-start-line="92" selection-end-line="92" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,11 +161,16 @@
       <find>game.getWorld().getBody()</find>
       <find>isCellAlive</find>
       <find>world</find>
+      <find>actualWorld</find>
+      <find>revive</find>
+      <find>reviveCell</find>
     </findStrings>
     <replaceStrings>
       <replace>int</replace>
       <replace>body</replace>
       <replace>actualWorld</replace>
+      <replace>world</replace>
+      <replace>reviveCellForNextInstance</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Sandoval-PC\Desktop\Jhon\Postgrado\Proyectos\Modulo 3\TDD Game of Life</dir>
@@ -144,13 +184,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/mainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/mainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/constants/CellLifeStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/World.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/CellTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/WorldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/World.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Game.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -165,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,7 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,12 +305,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="JUnit.GameTest">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.game_of_life.main" />
-      <module name="TDD Game of Life" />
+      <module name="game_of_life" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.game_of_life.*" />
@@ -279,8 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD Game of Life" />
+    <configuration name="CellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game_of_life" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.com.example.game_of_life.*" />
@@ -288,7 +328,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.com.example.game_of_life" />
-      <option name="MAIN_CLASS_NAME" value="test.com.example.game_of_life.GameTest" />
+      <option name="MAIN_CLASS_NAME" value="test.com.example.game_of_life.CellTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -309,7 +349,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.tryToReviveWithSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.tryToKillWithFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="game_of_life" />
       <extension name="coverage">
         <pattern>
@@ -319,7 +359,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.com.example.game_of_life" />
       <option name="MAIN_CLASS_NAME" value="test.com.example.game_of_life.GameTest" />
-      <option name="METHOD_NAME" value="tryToReviveWithSuccessTest" />
+      <option name="METHOD_NAME" value="tryToKillWithFailTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -342,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.GameTest (1)" />
-        <item itemvalue="JUnit.GameTest.tryToReviveWithSuccessTest" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.WorldTest" />
+        <item itemvalue="JUnit.CellTest" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.GameTest.tryToKillWithFailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -366,64 +406,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CellTest - 2019.08.17 at 18h 40m 32s.xml">
+    <history-entry file="CellTest - 2019.08.18 at 18h 33m 23s.xml">
       <configuration name="CellTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellTest - 2019.08.17 at 18h 42m 17s.xml">
+    <history-entry file="CellTest - 2019.08.18 at 18h 39m 09s.xml">
       <configuration name="CellTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_GameSizeTest - 2019.08.17 at 18h 56m 59s.xml">
-      <configuration name="GameTest.GameSizeTest" configurationId="JUnit" />
+    <history-entry file="WorldTest - 2019.08.18 at 18h 39m 16s.xml">
+      <configuration name="WorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest - 2019.08.17 at 19h 03m 01s.xml">
+    <history-entry file="GameTest - 2019.08.18 at 18h 39m 28s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorldTest - 2019.08.17 at 20h 58m 57s.xml">
+    <history-entry file="CellTest - 2019.08.18 at 19h 10m 10s.xml">
+      <configuration name="CellTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorldTest - 2019.08.18 at 19h 10m 19s.xml">
       <configuration name="WorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorldTest - 2019.08.17 at 21h 01m 34s.xml">
+    <history-entry file="GameTest - 2019.08.18 at 19h 10m 23s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorldTest - 2019.08.18 at 19h 24m 57s.xml">
       <configuration name="WorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorldTest - 2019.08.17 at 21h 16m 53s.xml">
+    <history-entry file="WorldTest - 2019.08.18 at 19h 30m 25s.xml">
       <configuration name="WorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_tryToReviveWithSuccessTest - 2019.08.17 at 21h 53m 26s.xml">
-      <configuration name="GameTest.tryToReviveWithSuccessTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_tryToReviveWithSuccessTest - 2019.08.17 at 21h 54m 17s.xml">
-      <configuration name="GameTest.tryToReviveWithSuccessTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_(1) - 2019.08.18 at 00h 03m 59s.xml">
-      <configuration name="GameTest (1)" configurationId="JUnit" />
+    <history-entry file="GameTest - 2019.08.18 at 19h 39m 57s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18075000" />
+    <option name="totallyTimeSpent" value="34400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2540453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32871974" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32871974" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39907727" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicates" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.28277355" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,13 +481,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/mainTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/mainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -454,51 +488,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/CellTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/constants/CellLifeStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/WorldTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/mainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="580">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#172#173#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="461">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,33 +533,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/WorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/com/example/game_of_life/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/classes/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+        <state relative-caret-position="204">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/game_of_life/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="578">
+            <caret line="92" selection-start-line="92" selection-end-line="92" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
